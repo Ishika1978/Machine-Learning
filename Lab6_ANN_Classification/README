@@ -1,0 +1,30 @@
+# Lab 6 – ANN Classification
+
+## Aim
+To implement an Artificial Neural Network (ANN) for multiclass classification using the Seeds Dataset.
+
+## Dataset
+- **Dataset:** Seeds Dataset
+- **Records:** 210
+- **Features:** 7
+- **Classes:** 3
+
+## Technologies
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow/Keras.
+
+## Method
+- Data preprocessing and visualization
+- Feature scaling using StandardScaler
+- 80:20 stratified train-test split
+- ANN with Dense layers and ReLU activation
+- Softmax output for multiclass classification
+- Adam optimizer and Early Stopping
+
+## Results
+- **Test Accuracy:** 85.71%
+- **Precision:** 86.25%
+- **Recall:** 85.71%
+- **F1-Score:** 85.00%
+
+## Conclusion
+The ANN model successfully classified the three seed classes with **85.71% test accuracy**.
